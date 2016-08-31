@@ -14,6 +14,7 @@
 		E228CBCD1D767E1800817715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E228CBCB1D767E1800817715 /* Main.storyboard */; };
 		E228CBD81D767E1900817715 /* KeyEquivalentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CBD71D767E1900817715 /* KeyEquivalentDemoTests.m */; };
 		E228CBE31D767E1900817715 /* KeyEquivalentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CBE21D767E1900817715 /* KeyEquivalentDemoUITests.m */; };
+		E228CBF11D76823500817715 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E228CBF01D76823500817715 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E228CBDE1D767E1900817715 /* KeyEquivalentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyEquivalentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E228CBE21D767E1900817715 /* KeyEquivalentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyEquivalentDemoUITests.m; sourceTree = "<group>"; };
 		E228CBE41D767E1900817715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E228CBF01D76823500817715 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E228CBF11D76823500817715 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		E228CBB41D767E1800817715 = {
 			isa = PBXGroup;
 			children = (
+				E228CBF01D76823500817715 /* Carbon.framework */,
 				E228CBBF1D767E1800817715 /* KeyEquivalentDemo */,
 				E228CBD61D767E1900817715 /* KeyEquivalentDemoTests */,
 				E228CBE11D767E1900817715 /* KeyEquivalentDemoUITests */,
